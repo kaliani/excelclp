@@ -10,8 +10,8 @@ df = pd.read_excel(filename)
 string = ''
 for i in df.index:
     if len(df.index)-1 > i:
-        string += str("'"+df[columnname][i]+"'"+","+'\n')
+        string += "'"+str(df[columnname][i])+"'"+","+'\n'
     else:
-        string += str("'"+df[columnname][i]+"'")
+        string += "'"+str(df[columnname][i])+"'"
 
 clipboard.copy(string)
