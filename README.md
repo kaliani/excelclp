@@ -1,5 +1,12 @@
-# description
-Change lines of text in excel file. Adding changed lines to the clipboard.
-# install
-pip install pandas
-pip istall clipboard 
+# Concatenate excel
+Concatenation of values by a given condition.
+
+# Installation
+To install pandas, clipboard, xlrd  with pip, run:
+1. pip install pandas;
+2. pip install xlrd;
+3. pip install clipboard.
+
+# Basic Usage
+From the command line, you can run:
+  python3 exxcel.py example.xlsx col_name
